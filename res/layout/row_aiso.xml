@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <CheckBox
+        android:id="@+id/row_aiso_checker"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:focusable="false"
+        android:clickable="false"
+      />
+
+    <TextView
+        android:id="@+id/row_aiso_isoname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Szumi maszen" />
+
+    <TextView
+        android:id="@+id/row_aiso_heroname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Szumim aszen" />
+
+    <TextView
+        android:id="@+id/row_aiso_skill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Szumima szen" 
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/row_aiso_effect"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Szumima szen" />
+
+    <TextView
+        android:id="@+id/row_aiso_isolocation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Szumimas zen" />
+
+</LinearLayout>
